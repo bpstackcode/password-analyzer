@@ -7,10 +7,8 @@
 -----
 
 ## Why This Project Exists
-
-Weak and reused passwords are behind the majority of account takeover incidents. Security teams need tooling that can evaluate credential strength programmatically — not just flag “too short,” but quantify *how* attackable a password actually is and surface that risk in a way that drives action.
-
-This tool does exactly that: it scores passwords using entropy-based mathematics, checks them against a breach database, and returns specific, actionable remediation feedback — the same logic that underlies enterprise credential hygiene policies aligned to NIST SP 800-63B.
+Weak and reused passwords account for the majority of account takeover incidents. Security teams need tooling that evaluates credential strength programmatically, not just flagging “too short,” but quantifying how attackable a password actually is and surfacing that risk in a way that drives action.
+This tool scores passwords using entropy-based mathematics, checks them against a breach database, and returns specific, actionable remediation feedback. The scoring logic mirrors the principles behind enterprise credential hygiene policies aligned to NIST SP 800-63B.
 
 -----
 
