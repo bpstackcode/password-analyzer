@@ -1,13 +1,6 @@
 """
-Password Strength Analyzer & Breach Checker
-============================================
-A cybersecurity-focused tool that:
-  - Analyzes password strength using multiple criteria
-  - Assigns a security score and rating
-  - Checks against a simulated breach database
-  - Logs all checks to a SQLite database for history tracking
-
-Skills demonstrated: Python, SQLite/SQL, functions, loops, conditionals, string manipulation
+Password Strength Analyzer & Breach Detection Engine
+Evaluates credential strength via entropy scoring and breach database lookup.
 """
 
 import sqlite3
